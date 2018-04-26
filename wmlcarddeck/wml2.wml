@@ -1,0 +1,114 @@
+<wml>
+<card id="card1">
+<p>
+Enter the text<br/>
+<input name="text" type="text" id="t1"/>
+
+<anchor>
+<go href="#card2"/>
+Change the font
+</anchor>
+
+<anchor>
+<go href="#card3"/>
+Change the alignment
+</anchor>
+
+<anchor>
+<go href="#card4"/>
+Change the size
+</anchor>
+</p>
+</card>
+
+<card id="card2">
+<p>
+<anchor>
+<go href="#b"/>
+BOLD
+</anchor>
+
+<anchor>
+<go href="#i"/>
+Italic
+</anchor>
+
+<anchor>
+<go href="#u"/>
+Underline
+</anchor>
+</p>
+</card>
+
+<card id="b">
+<p>
+<b>$(text)</b>
+</p>
+</card>
+
+<card id="i">
+<p>
+<i>$(text)</i>
+</p>
+</card>
+
+<card id="u">
+<p>
+<u>$(text)</u>
+</p>
+</card>
+
+<card id="card3">		
+<p>
+<anchor>
+<go href="#l"/>
+left
+</anchor>
+
+<anchor>
+<go href="#c"/>
+center
+</anchor>
+
+<anchor>
+<go href="#r"/>
+right
+</anchor>
+</p>
+</card>
+
+<card id="l">
+<p align="left">$(text)</p>
+</card>
+
+<card id="c">
+<p align="center">$(text)</p>
+</card>
+
+<card id="r">
+<p align="right">$(text)</p>
+</card>
+
+<card id="card4">		
+<p>
+<anchor>
+<go href="#big"/>
+BIG
+</anchor>
+
+<anchor>
+<go href="#small"/>
+small
+</anchor>
+</p>
+</card>
+
+<card id="big">
+<p><big>$(text)</big></p>
+</card>
+
+<card id="small">
+<p><small>$(text)</small></p>
+</card>
+
+</wml>
