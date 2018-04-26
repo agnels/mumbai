@@ -1,0 +1,26 @@
+<wml>
+<card id="card1">
+<p>
+<img src="agnel.png" height="50" width="50"/><br/>
+<anchor>
+<go href="#card2"/>
+Show the report card
+</anchor>
+</p>
+</card>
+
+<card id="card2">
+<p>
+<table columns="3">
+<tr>
+<td>subject</td><td>sem1</td><td>sem2</td>
+</tr>
+<tr>
+<td>maths</td><td>99</td><td>98</td>
+</tr>
+</table>
+</p>
+
+
+</card>
+</wml>
