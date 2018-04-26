@@ -1,0 +1,30 @@
+<wml>
+<card id="card1" title="WML Form">
+<p> <br/><br/>
+   Name: <input type="text" name="name" size="10" format="A*a"/><br/><br/>
+    Password(MAX 8 Characters):<input type="password" name="pass" size="10" format="NNNNNNNN"/><br/><br/>
+   Gender :<select name="sex">
+     <option value="male" size="10">Male</option>
+     <option value="female" size="10">Female</option>
+  </select><br/><br/>
+   Age :  <input type="text" name="age" size="10" format="NN"/><br/> <br/>
+   Contact:<input name="number" size="8" format="NNNNNNNNNN"/> <br/> <br/> 
+ Email: <input type="email" name="email" size="10"/><br/><br/>
+Branch :<select name="branch"><br/><br/>
+   <option value="Computer" size="10">Computer</option>
+  <option value="IT" size="10">IT</option>
+  <option value="EXTC" size="10">EXTC</option>
+  <option value="Mechanical" size="10">Mechanical</option>
+  <option value="Electrical" size="10">Electrical</option>
+  </select>
+<anchor>
+<go href="#res"/>
+Submit
+</anchor>
+</p>
+</card>
+
+<card id="res">
+<p>
+REGISTERATION SUCCESSFUL</p></card>
+</wml>
